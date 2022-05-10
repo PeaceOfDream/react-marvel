@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from "prop-types";
-import Spinner from '../spinner/spinner';
-import ErrorMessage from '../errorMessage/errorMessage';
+import Spinner from '../spinner/Spinner';
+import ErrorMessage from '../errorMessage/ErrorMessage';
 import Skeleton from '../skeleton/Skeleton';
 import './charInfo.scss';
 

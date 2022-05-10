@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
 import useMarvelService from '../../services/MarvelService';
-import Spinner from '../spinner/spinner';
-import ErrorMessage from '../errorMessage/errorMessage';
+import Spinner from '../spinner/Spinner';
+import ErrorMessage from '../errorMessage/ErrorMessage';
 
 import './comicsList.scss';
 
@@ -71,7 +71,7 @@ const ComicsList = () => {
   const spinner = loading && !newItemLoading ? <Spinner /> : null;
 
 	return (
-    <div >
+    <>
       {errorMessage}
       {spinner}
       {items}
@@ -83,7 +83,7 @@ const ComicsList = () => {
       >
         <div className="inner">load more</div>
       </button>
-    </div>
+    </>
   );
 }
 

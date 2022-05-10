@@ -1,12 +1,13 @@
 {
   "name": "marvel",
   "version": "0.1.0",
-  "homepage": "https://PeaceOfDream.github.io/react-marvel",
+  "homepage": "https://PeaceOfDream.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "formik": "^2.2.9",
     "gh-pages": "^3.2.3",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
@@ -14,7 +15,8 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "4.0.3",
     "save": "^2.5.0",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "predeploy": "npm run build",
